@@ -15,6 +15,9 @@ export GOPATH=$HOME/dev/go
 # time that oh-my-zsh is loaded.
 ZSH_THEME="ys"
 
+#tmux configration
+alias ta='tmux attach -t'
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
