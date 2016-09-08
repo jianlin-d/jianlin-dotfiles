@@ -1,7 +1,10 @@
-# Path to your oh-my-zsh installation.
+#Path to your oh-my-zsh installation.
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 export ZSH=/Users/Jason/.oh-my-zsh
+
+#brew configration
+export HOMEBREW_NO_ANALYTICS=true 
 
 #Golang setting
 export GOPATH=$HOME/dev/go
@@ -10,7 +13,7 @@ export GOPATH=$HOME/dev/go
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
