@@ -18,6 +18,9 @@ ZSH_THEME="ys"
 #tmux configration
 alias ta='tmux attach -t'
 
+#tree command
+alias treed="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
